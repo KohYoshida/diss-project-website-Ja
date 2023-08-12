@@ -1,0 +1,287 @@
+body {
+    margin: 0;
+}
+
+.top-bar-container {
+    position: fixed;
+    background-color: white;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.top-bar {
+    display: block;
+    margin: 0.08em auto;
+    text-align: center;
+}
+
+.divider {
+    width: 100%;
+    border-top: 2px solid #f8f199;
+  }
+
+.contents {
+    max-width: 55%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 4.5em;
+}
+
+.intro {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    line-height: 5em;
+    color:#535352;
+}
+
+.intro .line {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 2s ease;
+}
+
+.intro .line.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+#top {
+    padding-top: 2em;
+}
+
+.images {
+    display: block;
+    max-width: 75%;
+    width: 100%;
+    border-radius: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.image3 {
+    display: block;
+    max-width: 100%;
+    width: 100%;
+    border-radius: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.LDP-image {
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+    margin-bottom: 0.5em
+}
+
+.caption {
+    font-size: 0.8em;
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.topline {
+    font-size: 1.5em;
+    margin-top: 1em; 
+    margin-bottom: 1em;
+}
+
+h2 {
+    font-size: 1.1em; 
+    line-height: 2;
+}
+
+.date {
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 0;
+}
+
+.credit {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.credit p {
+    margin-right: 0.5rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.icon {
+    max-height: 2.5rem;
+}
+
+.divider2 {
+    width: 100%;
+    border-top: 4px solid #b1b0a9;
+    margin-bottom: 1em;
+  }
+
+.table-of-contents {
+    background-color: #f7efe4;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+details {
+    margin-left: 2em;
+    margin-right: 2em; 
+}
+
+summary {
+    color: #94938d;
+    padding-top: 1em;
+}
+
+.topics {
+    color: #94938d;
+    padding-bottom: 0px;
+}
+
+#subheading1 {
+    margin: 1em 0;
+    padding-top: 2em;
+}
+
+#subheading2 {
+    margin: 1em 0;
+    padding-top: 2em;
+}
+
+#subheading3 {
+    margin: 1em 0;
+    padding-top: 2em;
+}
+
+#subheading4 {
+    margin: 1em 0;
+    padding-top: 2em;
+}
+
+.texts {
+    line-height: 2;
+}
+
+.inserted-image {
+    font-size: 0.9em;
+    text-align: right;
+    margin: 1 auto;
+}
+
+.memo {
+    background-color: #f7efe4;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.memo-title{
+    font-size: 1em;
+    color: #94938d;
+    padding-top: 1em;
+    margin-bottom: 0;
+    margin-left: 2em;
+}
+
+.memo-body {
+    color: #94938d;
+    line-height: 2;
+    margin-left: 2em;
+    margin-right: 2em; 
+    padding-bottom: 1em;
+    margin-top: 0;
+}
+
+.quotes {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    line-height: 2;
+    font-weight: bold;
+}
+
+.other-article-container {
+    display: flex;
+    margin: 2em 1em 0 0;
+}
+
+.other-article-text-part {
+    border-radius: 10px 0px 0px 10px;
+    border-top: 2px solid rgb(230, 227, 223);
+    border-bottom: 2px solid rgb(230, 227, 223);
+    border-left: 2px solid rgb(230, 227, 223);
+    color: black;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+.other-article-link {
+    text-decoration: none !important;
+}
+
+.other-article-title {
+    font-weight: bold;
+}
+
+.other-article-image {
+    max-width: 30%;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 0px 10px 10px 0px;
+    border: 2px solid rgb(230, 227, 223);
+}
+
+.back-to-top-container {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    margin: 2em 2em 0 0;
+}
+
+.back-to-top {
+    width: 24%;
+    border-radius: 0.5em;
+    background-color: #f9e8d5;
+    padding: 0.5em;
+    margin: 2em;
+    text-align: center;
+}
+
+.back-to-top-text {
+    font-size: 0.8em;
+    font-weight: bold;
+    color: rgb(209, 155, 117);
+    text-decoration: none;
+}
+
+.footer {
+    max-width: 55%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 2em;
+    margin-bottom: 1.5em;
+}
+
+
+.footer-text {
+    text-align: center;
+    font-size: 0.8em;
+    margin: 0.2em auto;
+}
+
+
+
+
+
+
+
+
+
+
