@@ -262,6 +262,12 @@ summary {
     text-decoration: none;
 }
 
+.language {
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 1.5em;
+}
+
 .footer {
     max-width: 55%;
     margin-right: auto;
