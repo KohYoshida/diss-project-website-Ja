@@ -1,9 +1,11 @@
-const lines = document.querySelectorAll('.intro .line');
-let delay = 0;
+document.addEventListener('DOMContentLoaded', (event) => {
+    const lines = document.querySelectorAll('.intro .line');
+    let delay = 0;
 
-lines.forEach(line => {
-    setTimeout(() => {
-        line.classList.add('visible');
-    }, delay);
-    delay += 1800;
+    lines.forEach(line => {
+        setTimeout(() => {
+            line.classList.add('visible');
+        }, delay);
+        delay += 1800;
+    });
 });
